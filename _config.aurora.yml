@@ -122,7 +122,7 @@ valine:
   avatarForce: false
   meta: ['nick', 'mail']
   requiredFields: []
-  admin: 'TriDiamond'
+  admin: 'Hadronomy'
   recentComment: true
 
 # Enable Busuanzi statistic plugin

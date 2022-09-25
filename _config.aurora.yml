@@ -9,21 +9,15 @@
 #！ @docs https://aurora.tridiamond.tech/guide/configuration.html
 #! ---------------------------------------------------------------
 site:
-  subtitle: Aurora's Blog
-  author: Aurora
-  nick: Auroral UI
-  description:
+  subtitle: Hadronomy's Blog
+  author: Hadronomy
+  nick: Pablo Hernandez
+  description: Lover of all things code
   link: '/'
   language: en
-  multi_language: true
-  logo: https://img-blog.csdnimg.cn/20210313122054101.png
-  avatar: https://img-blog.csdnimg.cn/20210313122054101.png
-  beian:
-    number: ''
-    link: ''
-  police_beian:
-    number: ''
-    link: ''
+  multi_language: false
+  logo: https://avatars.githubusercontent.com/u/17086478?v=4
+  avatar: https://avatars.githubusercontent.com/u/17086478?v=4
 
 #! ---------------------------------------------------------------
 #! Authors Configs
@@ -54,18 +48,19 @@ menu:
 #! ---------------------------------------------------------------
 theme:
   dark_mode: true
-  profile_shape: diamond # support `circle`, `diamond`, `rounded`
+  profile_shape: rounded # support `circle`, `diamond`, `rounded`
   feature: true
   gradient:
-    color_1: '#24c6dc'
-    color_2: '#5433ff'
-    color_3: '#ff0099'
+    color_1: '#12c2e9'
+    color_2: '#c471ed'
+    color_3: '#f64f59'
 
 #! ---------------------------------------------------------------
 #! Social Configs
 #! @docs https://aurora.tridiamond.tech/guide/social.html
 #! ---------------------------------------------------------------
 socials:
+  github: 'https://github.com/Hadronomy'
   customs:
   ##! Example:
   ##! --- Using SVG
@@ -105,9 +100,9 @@ gitalk:
   autoExpand: true
   clientID: ''
   clientSecret: ''
-  repo: 'dev-blog-comments'
-  owner: 'TriDiamond'
-  admin: ['TriDiamond']
+  repo: 'blog'
+  owner: 'Hadronomy'
+  admin: ['Hadronomy']
   id: uid
   language: en
   distractionFreeMode: true
@@ -133,18 +128,15 @@ valine:
 # Enable Busuanzi statistic plugin
 # see http://ibruce.info/2015/04/04/busuanzi/
 busuanzi:
-  enable: true
+  enable: false
 
 copy_protection:
   enable: true
   author:
-    cn: 作者
     en: Author
   link:
-    cn: 本文来自于
     en: Article is from
   license:
-    cn: 博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议
     en: This content is shared under the CC BY-NC-SA 4.0 protocol (Non-Commercial)
 
 #! ---------------------------------------------------------------

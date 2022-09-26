@@ -98,7 +98,7 @@ site_meta:
 gitalk:
   enable: true
   autoExpand: true
-  clientID: 'Iv1.6c17bebd57b65f2b'
+  clientID: '37e00a433aac4971a2d6'
   clientSecret: '%GITALK_APP_SECRET%'
   repo: 'blog'
   owner: 'Hadronomy'

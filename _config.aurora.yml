@@ -25,13 +25,13 @@ site:
 #! ---------------------------------------------------------------
 authors:
   ##! example
-  # TriDiamond:
-  #   name: TriDiamond
-  #   avatar: https://up.enterdesk.com/edpic_source/44/ff/3d/44ff3d6bd2819d524facfcc33205d4cd.jpg
-  #   link: https://github.com/TriDiamond
-  #   description: 'Think like an artist, code like an artisan.'
-  #   socials:
-  #     github: https://tridiamond.tech
+  Hadronomy:
+    name: Hadronomy
+    avatar: https://avatars.githubusercontent.com/u/17086478?v=4
+    link: https://avatars.githubusercontent.com/u/17086478?v=4
+    description: 'Lover of all things code'
+    socials:
+      github: https://github.com/TriDiamond
 
 #! ---------------------------------------------------------------
 #! Menu Configs
@@ -98,8 +98,8 @@ site_meta:
 gitalk:
   enable: true
   autoExpand: true
-  clientID: ''
-  clientSecret: ''
+  clientID: 'Iv1.6c17bebd57b65f2b'
+  clientSecret: '%GITALK_APP_SECRET%'
   repo: 'blog'
   owner: 'Hadronomy'
   admin: ['Hadronomy']

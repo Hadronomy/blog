@@ -23,6 +23,10 @@ jobs:
             ${{ runner.OS }}-npm-cache
       - name: Install Dependencies
         run: npm install
+      - name: Replace environment variables
+        env:
+          GITALK_APP_SECRET: '${{secrets.GITALK_APP_SECRET}}'
+        run: npm run env
       - name: Build
         run: npm run build
       - name: Deploy

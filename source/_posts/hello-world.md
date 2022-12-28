@@ -14,6 +14,9 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 This is a tip
 :::
 
+:::warning
+Yey
+:::
 
 ``` bash
 $ hexo new "My New Post"

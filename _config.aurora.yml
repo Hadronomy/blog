@@ -9,7 +9,7 @@
 #！ @docs https://aurora.tridiamond.tech/guide/configuration.html
 #! ---------------------------------------------------------------
 site:
-  subtitle: Hadronomy's Blog
+  subtitle: Dev Diaries
   author: Hadronomy
   nick: Pablo Hernandez
   description: Lover of all things code
